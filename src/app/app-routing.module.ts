@@ -4,11 +4,14 @@ import { RouterModule, Routes }  from '@angular/router';
 import { AlbumComponent }        from './album/album.component';
 import { CategoriesComponent }   from './categories/categories.component';
 import { TimetableComponent }    from './timetable/timetable.component';
+import { HomeComponent }         from './home/home.component';
+
 
 import { AppComponent }          from './app.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
   { path: 'album', component: AlbumComponent },
   { path: 'categories', component: CategoriesComponent },
   { path: 'timetable', component: TimetableComponent }

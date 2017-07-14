@@ -10,13 +10,17 @@ import { UserInfoComponent } from './user/user-info/user-info.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { AlbumComponent } from './album/album.component';
 import { TimetableComponent } from './timetable/timetable.component';
+import { BlogNavComponent } from './blog-nav/blog-nav.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CategoriesComponent,
     AlbumComponent,
-    TimetableComponent
+    TimetableComponent,
+    BlogNavComponent,
+    HomeComponent
 
   ],
   imports: [

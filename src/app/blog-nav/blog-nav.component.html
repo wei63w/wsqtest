@@ -1,0 +1,14 @@
+<div class="btnParent">
+    <!-- <button class="btn btn-default">登录</button>
+        <button class="btn btn-default">注册</button> -->
+    <a>登录</a>
+    <a>注册</a>
+</div>
+
+
+<ul class="nav navbar-nav">
+    <li class="active"><a (click)="jumpTo('home')" [routerLink]="['/home']" href="#">Home</a></li>
+    <li class="active"><a (click)="jumpTo('categories')" [routerLink]="['/categories']" href="#">Categories</a></li>
+    <li class="active"><a (click)="jumpTo('album')" [routerLink]="['/album']" href="#">Album</a></li>
+    <li class="active"><a (click)="jumpTo('timetable')" [routerLink]="['/timetable']" href="#">Timetable</a></li>
+</ul>

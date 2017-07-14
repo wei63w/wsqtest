@@ -1,49 +1,24 @@
 body {
-  font-size: 100%;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-  font-family: fantasy;
-  font-style: oblique;
-  font-size: 4em;
-  color: #778899;
-}
-
-
-
-ul {
-  font-size: 2em;
-  font-family: fantasy;
-  font-style: oblique;
-  list-style: none;
-  display:block;
-  margin:0px;
-  padding:0px;
-}
-
-ul li {
-  width:20%;
-  float:left;
-  display:block;
-  padding-top: 4px;
-  padding-bottom: 6px;
-  background-color: #8A2BE2;
-}
-
-ul li a {
-
-  color: #F0FFFF;
-  text-decoration: none;
-  padding-top: 4px;
-  padding-bottom: 6px;
-  padding-left: 10px;
-  padding-right: 10px;
+    font-family: fantasy;
+    font-style: oblique;
 }
 
 ul li a:hover {
-  color:#808080;
+    color: #808080;
 }
 
 ul li a:active {
-  color:#000000;
+    color: #000000;
+}
+
+.title {
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: 30pt;
 }

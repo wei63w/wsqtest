@@ -1,23 +1,8 @@
-<body>
+<div class="container">
+    <div>
+        <app-blog-nav></app-blog-nav>
+        <div class="title">{{title}}</div>
 
-<h1>{{title}}</h1>
-<h3>登录</h3>
-<h3>注册</h3>
-
-<div>
-
-<ul>
-  <li><a routerLink = "/" > Home </a></li>
-  <li><a routerLink = "categories" > Categories </a></li>
-  <li><a routerLink = "/album" > Album </a></li>
-  <li><a routerLink = "/timetable" > Timetable </a></li>
-</ul>
-
-<router-outlet></router-outlet>
+        <router-outlet></router-outlet>
+    </div>
 </div>
-
-<div>
-
-</div>
-
-</body>
