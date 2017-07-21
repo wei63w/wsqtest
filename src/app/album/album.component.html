@@ -1,3 +1,16 @@
-<p>
-  album works!
-</p>
+<div>
+  <div>
+    <ol class="breadcrumb">
+      <li><a class="active" (click)="changeEle1()" herf=""><span class="glyphicon glyphicon-th-large" aria-hidden="true">详情图</span></a></li>
+      <li><a class="active" (click)="changeEle2()" herf=""><span class="glyphicon glyphicon-th" aria-hidden="true">缩略图</span></a></li>
+    </ol>
+  </div>
+
+  <div id="diplay">
+    <app-detail id="sub1"></app-detail>
+    <app-thumbnail hidden="hidden" id="sub2"></app-thumbnail>
+  </div>
+
+
+
+</div>

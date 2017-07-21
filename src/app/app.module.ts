@@ -12,6 +12,11 @@ import { AlbumComponent } from './album/album.component';
 import { TimetableComponent } from './timetable/timetable.component';
 import { BlogNavComponent } from './blog-nav/blog-nav.component';
 import { HomeComponent } from './home/home.component';
+import { UserLoginComponent } from './user-login/user-login.component';
+import { UserRegisterComponent } from './user-register/user-register.component';
+import { ArticleDataComponent } from './article-data/article-data.component';
+import { ThumbnailComponent } from './album/thumbnail/thumbnail.component';
+import { DetailComponent } from './album/detail/detail.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import { HomeComponent } from './home/home.component';
     AlbumComponent,
     TimetableComponent,
     BlogNavComponent,
-    HomeComponent
+    HomeComponent,
+    UserLoginComponent,
+    UserRegisterComponent,
+    ArticleDataComponent,
+    ThumbnailComponent,
+    DetailComponent
 
   ],
   imports: [

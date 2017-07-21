@@ -1,14 +1,15 @@
 <div class="btnParent">
     <!-- <button class="btn btn-default">登录</button>
         <button class="btn btn-default">注册</button> -->
-    <a>登录</a>
-    <a>注册</a>
+    <a (click)="jumpTo('user-login')" [routerLink]="['/user-login']" href="#">登录</a>
+    <a (click)="jumpTo('user-register')" [routerLink]="['/user-register']" href="#">注册</a>
 </div>
 
-
+<div>
 <ul class="nav navbar-nav">
-    <li class="active"><a (click)="jumpTo('home')" [routerLink]="['/home']" href="#">Home</a></li>
-    <li class="active"><a (click)="jumpTo('categories')" [routerLink]="['/categories']" href="#">Categories</a></li>
-    <li class="active"><a (click)="jumpTo('album')" [routerLink]="['/album']" href="#">Album</a></li>
-    <li class="active"><a (click)="jumpTo('timetable')" [routerLink]="['/timetable']" href="#">Timetable</a></li>
+    <li class="active"><a (click)="jumpTo('home')" [routerLink]="['/home']" href="#"><span class="glyphicon glyphicon-home" aria-hidden="true">Home</span></a></li>
+    <li class="active"><a (click)="jumpTo('categories')" [routerLink]="['/categories']" href="#"><span class="glyphicon glyphicon-list" aria-hidden="true">Categories</span></a></li>
+    <li class="active"><a (click)="jumpTo('album')" [routerLink]="['/album']" href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true">Album</span></a></li>
+    <li class="active"><a href="https://mytimetable.exeter.ac.uk/"><span class="glyphicon glyphicon-calendar" aria-hidden="true">Timetable</span></a></li>
 </ul>
+</div>
